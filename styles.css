@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: url("images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(257, 40%, 49%);  
+}
+
+
+header img {
+    position: relative;
+    right: -50px;
+    top: 50px;
+}
+.container-1{
+    display: flex;
+}
+aside{
+    position: relative;
+    left: 60px;
+    top: 80px;
+    color: white;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+#huddle{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(213, 211, 218);
+    
+}
+button{
+    border: none;
+    color: rgb(104, 104, 105);
+    padding: 15px;
+    border-radius: 30px;
+    width: 40%;
+    box-shadow: 1px 2px 2px 2px rgb(69, 44, 115);
+    cursor:pointer;
+    background-color: rgb(255, 255, 255);
+}
+button:hover{
+    background-color: rgb(204, 197, 197);
+    transform: translate(2px);
+    transition: ease-in;
+}
+
+.background-image img{
+    position: relative;
+    right: -50px;
+    top: 100px;
+    width: 90%;
+    
+}
+.icons{
+    position: relative;
+    right:-700px;
+    bottom: -70px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    width: 40%;
+    justify-content: flex-end;
+}
+
+.icon {
+    position:relative;
+	text-align:center;
+	width:0px;
+	height:0px;
+	padding:20px;
+	border-top-right-radius: 	20px;
+	border-top-left-radius: 	20px;
+	border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 	20px; 
+    -moz-border-radius: 		20px 20px 20px 20px;
+	-webkit-border-radius: 		20px 20px 20px 20px;
+	-khtml-border-radius: 		20px 20px 20px 20px; 
+    color: white;
+
+}
+.icon.social {
+	float:left;
+    margin:10px;
+
+	cursor:pointer;
+	background:rgb(103, 75, 177);
+	border: 1px solid white;
+}
+.icon i {
+	font-size:20px;
+	position:absolute;
+	left:9px;
+	top:10px;
+}
+
+.icon.social.fb i {
+	left:13px;
+	top:10px;
+}
+.icon.social.tw i {
+	left:11px;
+}
+.icon.social.in i {
+	left:11px;
+}
+
+
+
+footer{
+    position: relative;
+    bottom: -60px;
+}
