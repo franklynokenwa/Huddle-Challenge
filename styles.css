@@ -121,3 +121,52 @@ footer{
     position: relative;
     bottom: -60px;
 }
+
+@media (max-width:375px){
+    .container-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    aside{
+        margin-top: 150px;
+        text-align: center;
+        padding-left: auto;
+        padding-right: auto;
+        margin-left: 2px;
+    }
+    aside h3{
+        font-size: 17px;
+    }
+    #huddle{
+        font-size: 12px;
+        right: -29px;
+    }
+    button{
+        padding:10px ;
+        position: relative;
+        top: 10px;
+        left: -19px;
+    }
+
+    header img{
+        width: 100px;
+    }
+    .background-image{
+        height: 100px;
+    }
+    .icons{
+        position: relative;
+        left: 170px;
+        top: 120px;
+    }
+    .icon{
+        padding: 20px;    
+    }   
+
+    .attribution{
+        position: relative;
+        top: 70px;
+        left:20px;
+    }
+}
