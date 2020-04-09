@@ -32,8 +32,7 @@ h3{
 #huddle{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    color: rgb(213, 211, 218);
-    
+    color: rgb(213, 211, 218);    
 }
 button{
     border: none;
@@ -111,7 +110,12 @@ button:hover{
 	left:11px;
 }
 
-
+.attribution {
+     font-size: 11px; text-align: center;
+}
+.attribution a {
+     color: white;
+ }
 
 footer{
     position: relative;
